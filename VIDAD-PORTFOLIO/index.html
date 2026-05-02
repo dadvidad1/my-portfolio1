@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contessa Vidad | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo-container">
+                <div class="logo-box">
+                    <img src="img/logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+                <div class="logo-text">Contessa</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>HI, I'M CONTESSA!<br><span class="highlight">WEB</span>DEVELOPER</h1>
+                    <p>I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+                    <a href="#about" class="btn-about">About Me</a>
+                </div>
+                <div class="hero-image">
+                    <div class="image-glow-container">
+                        <div class="glow-ring"></div>
+                        <img src="img/myphoto.jpg" alt="Contessa">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3>My Journey</h3>
+                        <p>I am an IT Graduate from GRC with a passion for building functional and beautiful websites. My goal is to leverage my technical skills to solve real-world problems through technology.</p>
+                        <p>I enjoy learning new technologies and staying up-to-date with the latest industry trends.</p>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="skill-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>React</span>
+                                <span>PHP</span>
+                                <span>UI/UX Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="portfolio" class="projects">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="img/project1.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-content">
+                            <h3>Login Page</h3>
+                            <p>A full-featured online store with cart functionality and payment integration.</p>
+                            <p class="tech">Tools: React, Node.js, MongoDB</p>
+                            <a href="project1.html" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="img/project2.jpg" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>A productivity tool to help users manage their daily tasks efficiently.</p>
+                            <p class="tech">Tools: JavaScript, Firebase, CSS</p>
+                            <a href="project2.html" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="img/project3.jpg" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p>A real-time weather application providing accurate forecasts.</p>
+                            <p class="tech">Tools: HTML, CSS, OpenWeather API</p>
+                            <a href="project3.html" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Let's Talk</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                        <div class="contact-details">
+                            <p><i class="fas fa-paper-plane"></i> jomariabubo.grc@gmail.com</p>
+                            <p><i class="fas fa-phone-alt"></i> 09243609537</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://facebook.com/YOUR_USERNAME" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/YOUR_USERNAME" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/YOUR_USERNAME" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                        <a href="#" class="btn-cv">Download CV</a>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ZYAN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
